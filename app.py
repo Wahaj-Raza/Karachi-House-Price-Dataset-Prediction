@@ -80,3 +80,10 @@ if st.sidebar.button("Predict Price", key="predict", disabled=not check_fields()
         # Add a horizontal line to separate each property page
         st.write("---")
 
+# Add a footer using HTML and CSS
+footer_html = """
+<footer style='text-align: center; font-size: 12px; margin-top: 50px;'>
+    Made with ❤️ by <a href="https://github.com/wahajraza">Wahaj Raza</a>
+</footer>
+"""
+st.markdown(footer_html, unsafe_allow_html=True)
