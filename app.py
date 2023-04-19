@@ -82,7 +82,7 @@ if st.sidebar.button("Predict Price", key="predict", disabled=not check_fields()
 
 # Add a footer using HTML and CSS
 footer_html = """
-<footer style='text-align: center; font-size: 12px; margin-top: 50px;'>
+<footer style='text-align: center; font-size: 30px; margin-top: 50px;'>
     Made with ❤️ by <a href="https://github.com/wahajraza">Wahaj Raza</a>
 </footer>
 """
