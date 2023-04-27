@@ -50,7 +50,7 @@ if st.sidebar.button("Predict Price", key="predict", disabled=not check_fields()
     
     # Display prediction and similar properties
     st.subheader("Prediction")
-    st.markdown(f"<span style='font-size:30px;font-weight:bold;color:green;'>PKR {int(prediction):,}</span>", unsafe_allow_html=True)
+    st.markdown(f"<span style='font-size:30px;font-weight:bold;color:green;'>PKR {abs(int(prediction)):,}</span>", unsafe_allow_html=True)
 
     
     # Update the subheader for similar properties
